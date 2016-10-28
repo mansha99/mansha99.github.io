@@ -9,7 +9,8 @@ $(document).ready(function (){
      contact:'+91 9893 407 889',
      website:'mansha99.github.io',
      linked:'manish-sharma-017708b',
-     github:'mansha99.github.io'
+     github:'mansha99.github.io',
+     twitter:'mansha99'
      
    };
    populateMe(me);
@@ -30,10 +31,7 @@ function populateMe(me){
     $("#me_linked").attr("href","https://in.linkedin.com/in/"+me.linked);
     $("#me_github").html(me.github);
     $("#me_github").attr("href","http://"+me.github);
-    
-    
-    
-    
-    
+    $("#me_twitter").html(me.twitter);
+    $("#me_twitter").attr("href","https://twitter.com/"+me.twitter);
     
 }
