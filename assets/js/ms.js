@@ -2,7 +2,7 @@ $(document).ready(function (){
    //########################################################################### 
    var me={
      name:"Manish Sharma" ,
-     tagline:"Senior App Developer",
+     tagline:"Full Stack Developer",
      img_src:'assets/images/manish-sharma.jpg',
      img_alt:'Manish Sharma',
      email:'mansha99@gmail.com',
