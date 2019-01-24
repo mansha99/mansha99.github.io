@@ -21,6 +21,14 @@
         <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
         <link rel="icon" href="/favicon.ico" type="image/x-icon">
+         <script type="text/javascript" src="assets/jquery-3.3.1.min.js"></script>
+        <script>
+            $(function () {
+                $(".profile").load("includes/profile.html");
+                $(".experience").load("includes/experience.html");
+                
+            });
+        </script> 
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
           <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
