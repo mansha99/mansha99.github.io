@@ -1,0 +1,86 @@
+.bulet {
+    width:16px;
+    position:absolute;
+    top:120px;
+    left:30px;
+}
+.roundChecked {
+    width:16px;
+    height:16px;
+    border-radius:50px;
+    border:4px #0f7c89 solid;
+    border-width:4px;
+    border-style:solid;
+}
+.lineChecked {
+    width:3px;
+    height:95px;
+    background-color:#0f7c89;
+    margin:auto 6px;
+
+}
+.roundUnChecked {
+    width:16px;
+    height:16px;
+    border-radius:50px;
+    border:4px #c2bfbf solid;
+    border-width:4px;
+    border-style:solid;
+
+}
+.lineUnChecked {
+    width:3px;
+    height:95px;
+    background-color:#c2bfbf;
+    margin:auto 6px;
+
+}
+
+
+.full-size {
+    width:100%;
+    border-top:3px solid #ccc;
+}
+
+.full-size .inner-panel {
+    background-color:white;
+    padding:20px 5px 20px 5px;
+    border-bottom:1px solid #ccc;
+    border-top:1px solid #ccc;
+    display: flex;
+    min-height:90px;
+}.full-size .inner-panel .action-btn {
+    background-color:#415dab;
+    font-size:14px !important;
+    font-weight:600;
+    width:89px;
+    height:24px;
+    padding: 3px 4px;
+    color:white;
+}
+.full-size .inner-panel .mail-btn {
+    background-color:white;
+    font-size:14px !important;
+    border:1px solid #415dab;
+    font-weight:600;
+    width:104px;
+    height:24px;
+    padding: 3px 4px;
+    color:#415dab;
+}.desc-line{
+    color:#3b3f48;
+}
+.desc-bold{
+    color:#000;
+    font-weight:bold;
+}
+
+.full-size .inner-panel .center {
+    margin:auto;
+}
+
+.full-size .inner-panel .sign {
+    color:#c2bfbf;
+    font-size:22px;
+}
+
